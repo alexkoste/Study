@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AK.UIP.HW1.VehiclesConsoleApp", "AK.UIP.HW1.VehiclesConsoleApp\AK.UIP.HW1.VehiclesConsoleApp.csproj", "{C4785A24-0253-40E1-9FEF-F819F558434B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AK.UIP.HW1.PointsAndLines", "AK.UIP.HW1.PointsAndLines\AK.UIP.HW1.PointsAndLines.csproj", "{2251F9DE-C745-4A21-B5D3-B9822F1539D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C4785A24-0253-40E1-9FEF-F819F558434B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4785A24-0253-40E1-9FEF-F819F558434B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4785A24-0253-40E1-9FEF-F819F558434B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2251F9DE-C745-4A21-B5D3-B9822F1539D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2251F9DE-C745-4A21-B5D3-B9822F1539D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2251F9DE-C745-4A21-B5D3-B9822F1539D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2251F9DE-C745-4A21-B5D3-B9822F1539D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
