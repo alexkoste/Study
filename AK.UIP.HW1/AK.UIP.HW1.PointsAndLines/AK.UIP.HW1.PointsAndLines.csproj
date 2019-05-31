@@ -54,5 +54,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AK.UIP.HW1.VehiclesConsoleApp\AK.UIP.HW1.VehiclesConsoleApp.csproj">
+      <Project>{C4785A24-0253-40E1-9FEF-F819F558434B}</Project>
+      <Name>AK.UIP.HW1.VehiclesConsoleApp</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

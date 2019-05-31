@@ -43,8 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\IFly.cs" />
+    <Compile Include="Interfaces\IMove.cs" />
+    <Compile Include="Interfaces\ISwim.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vehicles\CAmfibia.cs" />
+    <Compile Include="Vehicles\CBatCar.cs" />
     <Compile Include="Vehicles\CCar.cs" />
     <Compile Include="Vehicles\CPlain.cs" />
     <Compile Include="Vehicles\CShip.cs" />

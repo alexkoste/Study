@@ -7,15 +7,11 @@ using System.Threading.Tasks;
 
 namespace AK.UIP.HW1.VehiclesConsoleApp.Vehicles
 {
-    public class CPlain:CVehicle, IFly
+    public class CBatCar : CCar, ISwim, IFly
     {
+        int _swimmingSpeed;
         int _flyingSpeed;
-        public int MaxHeight { get; set; }
+        public int SwimmingSpeed { get => _swimmingSpeed; set => _swimmingSpeed = value; }
         public int FlyingSpeed { get => _flyingSpeed; set => _flyingSpeed = value; }
-
-        public string GetMaxHeight()
-        {
-            return $"{Name}: MaxHeight = {MaxHeight}";
-        }
     }
 }

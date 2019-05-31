@@ -7,15 +7,9 @@ using System.Threading.Tasks;
 
 namespace AK.UIP.HW1.VehiclesConsoleApp.Vehicles
 {
-    public class CShip:CVehicle, ISwim
+    class CAmfibia : CCar, ISwim
     {
         int _swimmingSpeed;
-        public string Port { get; set; }
         public int SwimmingSpeed { get => _swimmingSpeed; set => _swimmingSpeed = value; }
-
-        public string GetPort()
-        {
-            return $"{Name}: Port = {Port}";
-        }
     }
 }
