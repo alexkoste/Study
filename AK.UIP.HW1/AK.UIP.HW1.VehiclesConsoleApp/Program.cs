@@ -1,4 +1,6 @@
-﻿using AK.UIP.HW1.VehiclesConsoleApp.Vehicles;
+﻿using AK.UIP.HW1.VehiclesConsoleApp.Core;
+using AK.UIP.HW1.VehiclesConsoleApp.Interfaces;
+using AK.UIP.HW1.VehiclesConsoleApp.Vehicles;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +13,12 @@ namespace AK.UIP.HW1.VehiclesConsoleApp
     {
         static void Main(string[] args)
         {
+            //Task1();
+            Task2();
+        }
+
+
+        private static void Task1() {
             List<CVehicle> vehicles = GetVehicles();
             string input;
             do
@@ -47,8 +55,47 @@ namespace AK.UIP.HW1.VehiclesConsoleApp
                         break;
                 }
 
-            } while (input!="EXIT");
-            
+            } while (input != "EXIT");
+        }
+
+        private static void Task2() {
+            CVehicle[] vehiclesArray = (new VehiclesCreator()).Vehicles;
+            Array.Sort(vehiclesArray, (X, Y) => X.Price - Y.Price);
+            var maxPriceVehicle = vehiclesArray.Last();
+            Array.Sort(vehiclesArray, (X, Y) => X.Price - Y.Price);
+
+            var elements = vehiclesArray.Where(e => e.YearOfEdition >= 2 && e.YearOfEdition <= 4 && e.Speed > 5).ToArray();
+            Array.Sort(elements, (X, Y) => X.Price - Y.Price);
+            CVehicle element = elements.Last();
+            List<CShip> ships = new List<CShip>();
+            foreach (var item in vehiclesArray)
+            {
+                if (item is CShip)
+                {
+                    ships.Add((CShip)item);
+                }
+            }
+            ships.Sort((X,Y)=>Y.Price-X.Price);
+
+            List<ISwim> swims = new List<ISwim>();
+            List<IFly> flys = new List<IFly>();
+            List<IMove> moves = new List<IMove>();
+
+            foreach (var item in vehiclesArray)
+            {
+                if (item is IFly)
+                    flys.Add((IFly)item);
+                if (item is IMove)
+                    moves.Add((IMove)item);
+                if (item is ISwim)
+                    swims.Add((ISwim)item);
+            }
+            swims.Sort((X, Y) => X.SwimmingSpeed - Y.SwimmingSpeed);
+            moves.Sort((X, Y) => X.MovingSpeed - Y.MovingSpeed);
+            flys.Sort((X, Y) => X.FlyingSpeed - Y.FlyingSpeed);
+
+
+
         }
 
         private static void GetWilsCount(List<CVehicle> vehicles)
