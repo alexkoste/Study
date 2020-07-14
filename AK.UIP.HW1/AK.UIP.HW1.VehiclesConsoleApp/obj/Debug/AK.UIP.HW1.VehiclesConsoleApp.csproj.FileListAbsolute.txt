@@ -1,7 +1,0 @@
-D:\GIT\Study\AK.UIP.HW1\AK.UIP.HW1.VehiclesConsoleApp\obj\Debug\AK.UIP.HW1.VehiclesConsoleApp.csprojAssemblyReference.cache
-D:\GIT\Study\AK.UIP.HW1\AK.UIP.HW1.VehiclesConsoleApp\obj\Debug\AK.UIP.HW1.VehiclesConsoleApp.csproj.CoreCompileInputs.cache
-D:\GIT\Study\AK.UIP.HW1\AK.UIP.HW1.VehiclesConsoleApp\bin\Debug\AK.UIP.HW1.VehiclesConsoleApp.exe.config
-D:\GIT\Study\AK.UIP.HW1\AK.UIP.HW1.VehiclesConsoleApp\bin\Debug\AK.UIP.HW1.VehiclesConsoleApp.exe
-D:\GIT\Study\AK.UIP.HW1\AK.UIP.HW1.VehiclesConsoleApp\bin\Debug\AK.UIP.HW1.VehiclesConsoleApp.pdb
-D:\GIT\Study\AK.UIP.HW1\AK.UIP.HW1.VehiclesConsoleApp\obj\Debug\AK.UIP.HW1.VehiclesConsoleApp.exe
-D:\GIT\Study\AK.UIP.HW1\AK.UIP.HW1.VehiclesConsoleApp\obj\Debug\AK.UIP.HW1.VehiclesConsoleApp.pdb
