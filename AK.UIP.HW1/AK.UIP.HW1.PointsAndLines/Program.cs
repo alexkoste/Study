@@ -1,10 +1,5 @@
 ﻿using AK.UIP.HW1.PointsAndLines.Classes;
-using AK.UIP.HW1.VehiclesConsoleApp.Vehicles;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AK.UIP.HW1.PointsAndLines
 {
